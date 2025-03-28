@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+    --verde: #8bc34a;
+}
+
+* ¨{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;  
+}
+
+h1 {
+    background-color: var(--verde);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.cancion{
+    position: relative;
+    display: inline-block;
+   --webkit-box-shadow: 4px 4px 20px 0px rgba(0,0,0,0,8);
+    box-shadow: 4px 4px 20px 0px #000000cc;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.titulo-cancion {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-color: white;
+    color: var(--verde);
+    padding: 10px;
+    font-size: 20pt;
+    text-transform: uppercase;
+
+}
+.imagen-cancion {
+    display: block;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.boton-play-pause {
+    display: inline-block;
+    position: relative;
+    left: 35%;
+    text-decoration: none;
+    color: white;
+    background-color: var(--verde);
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+.artista {
+    position: absolute;
+    top: 10px;
+    left: 40%;
+    font-weight: bold;
+}
+#footer {
+    text-align: center;
+    font-weight: bold;
+    border-top: solid 2px black;
+
+}
+
